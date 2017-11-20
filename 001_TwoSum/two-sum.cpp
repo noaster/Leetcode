@@ -1,8 +1,13 @@
 /*
 Problem : Two Sum (https://leetcode.com/problems/two-sum/description/)
+Find indices of the two numbers (input-0) that they add up to a target (input-1)
+
+Example : 
+  - Input-0 : [2, 7, 11, 15]
+  - Input-1 : 9
+  - Output : [1, 2]
 */
 #include <vector>
-
 using namespace std;
 
 class Solution {
