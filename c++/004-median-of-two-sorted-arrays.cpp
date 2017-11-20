@@ -10,7 +10,7 @@ Output : 2.0
 
 #include <vector>
 using namespace std;
-
+// time complexity of this solution is O(m+n)
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
