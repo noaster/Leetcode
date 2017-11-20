@@ -1,3 +1,16 @@
+/*
+Problem : https://leetcode.com/problems/add-two-numbers/description/
+Add two (reverse order) numbers and return it as a linked list.
+
+Input: (2 -> 4 -> 3) + (5 -> 6 -> 4)
+Output: 7 -> 0 -> 8
+
+2 4 3
+5 6 4
+-----
+7 0 8(carry + 1)
+*/
+
 struct ListNode {
      int val;
      ListNode *next;
