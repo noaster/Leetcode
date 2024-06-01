@@ -10,8 +10,8 @@ class Solution:
                 if str_dict[char] != word_list[index]:
                     return False
             else:
-                found_keys = [key for key, value in str_dict.items() if value == word_list[index]]
-                if len(found_keys) > 0:
-                    return False
+                for key, value in str_dict.items():
+                    if value == word_list[index]:
+                        return False
                 str_dict[char] = word_list[index]
         return True
