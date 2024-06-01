@@ -15,7 +15,6 @@ public:
                 if (endIndex <= i) {
                     break;
                 }
-                cout << i << ',' << endIndex << endl;
                 tmp = nums[i];
                 nums[i] = nums[endIndex];
                 nums[endIndex] = tmp;
